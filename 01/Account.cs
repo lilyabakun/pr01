@@ -37,7 +37,7 @@ namespace _01
             this.summ = Summ;
         }
 
-        public int GetCourse()
+        public int GetNum()
         {
             return this.num;
 
@@ -47,7 +47,7 @@ namespace _01
             return this.name;
 
         }
-        public double GetSex()
+        public double GetSumm()
         {
             return this.summ;
 

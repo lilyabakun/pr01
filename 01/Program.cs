@@ -10,6 +10,10 @@ namespace _01
     {
         static void Main(string[] args)
         {
+            Account account = new Account();
+            Account account1 = new Account("name", 3, 2.5);
+            account.SetName("Petr");
+            account.Getname();
         }
     }
 }
